@@ -11,7 +11,7 @@ public class App1Application {
 
 	@GetMapping("/")
 	public String main() {
-		return "Docker app 1 123123213312";
+		return "Docker app 1 123123213312 >>> update";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(App1Application.class, args);
